@@ -1,0 +1,362 @@
+
+.navbar {
+	display: inline-flex;
+	background-color: #071525;
+	height: 100px;
+	width: 100%;
+
+}
+
+.navBar_logedOut_left {
+ text-align: left;
+ font-size: 2em;
+ padding: 25px;
+}
+
+.navBar_logedIn {
+    position: relative;
+	left: 160px;
+	padding: 20px;
+	font-size: 1.3em;
+}
+
+.navBar_logedOut_right {
+	position: relative;
+	left: 320px;
+	font-size: 1.6em;
+	padding: 15px;
+
+}
+
+h5 {
+	color: white;
+	font-size: 2em;
+}
+
+h2 {
+	text-align: center;
+	font-size: 3em;
+	color: #ffffff;
+
+}
+
+h3 {
+	color: whitesmoke;
+	
+}
+
+h1 {
+	text-align: center;
+	font-size: 3em;
+	color: #ffffff;
+}
+
+
+
+@keyframes
+fadeInOut {
+	0% {
+	  opacity: 0;
+	}
+  
+	45% {
+	  opacity: 1;
+	}
+  
+	100% {
+	  opacity: 0%;
+	}
+  }
+
+  @keyframes
+  fadeInOut2 {
+	  0% {
+		opacity: 0;
+	  }
+	
+	  45% {
+		opacity: 1;
+	  }
+	
+	  100% {
+		opacity: 0%;
+	  }
+	}
+
+  @keyframes bottomFadeOut {
+	0% {
+	  position: absolute;
+	  bottom: -7rem;
+	  opacity: 0;
+	}
+  
+	100% {
+		position: absolute;
+		margin: auto;
+		top: 15%;
+		opacity: 1;
+	  }
+	
+  }
+
+  .animationBox {
+	position: relative;
+	text-align: center;
+	font-size: 2.5em;
+	margin-top: 10%;
+
+}
+
+.charlieFade {
+	text-align: center;
+	font-size: 3.5em;
+	color: #ffffff;
+	opacity: 0;
+	z-index: 5;
+	animation: 20s infinite fadeInOut2;
+	animation-delay: 12s;
+
+  }
+
+
+  .charlieSecondFade {
+	font-size: 3.5em;
+	text-align: center;
+	opacity: 0;
+	color: white;
+	z-index: 3;
+	animation-name: fadeInOut;
+	animation-delay: 7.5s;
+	animation-duration: 5s;
+  }
+  
+
+.charlieThirdFade {
+	text-align: center;
+	font-size: 3em;
+	color: #ffffff;
+	opacity: 0;
+	z-index: 1;
+	animation-name: fadeInOut;
+	animation-delay: 1s;
+	animation-duration: 6s;
+}
+
+
+.homeScreen {
+	background-image: url("./8478.jpg");
+	height: 1000px;
+	width: 100%;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.blogStuff {
+	background-image: url("./8478.jpg");
+	height: 1000px;
+	width: 100%;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.profilepage {
+	background-image: url("./8478.jpg");
+	height: 1000px;
+	width: 100%;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+
+.tcnLogo {
+	display: relative;
+	z-index: 2;
+	height: 400px;
+	width: 465px; 
+}
+
+.spotifyLogo {
+	display: absolute;
+	margin: 5% auto;
+	height: 200px;
+	width: 550px; 
+}
+
+.Face {
+	display: absolute;
+	margin: 5% auto;
+	height: 200px;
+	width: 195px; 
+	border-radius: 95px;
+}
+
+
+ li :hover {
+	color: lightgray;
+	font-size: 2em;
+
+}
+
+.likeList {
+	list-style: none;
+	text-align: center;
+	color: white;
+	padding: 20px;
+  font-size: 1.5em;
+
+}
+
+label {
+	color: white;
+	font-weight: bold;
+}
+
+.uploadFile {
+	background-image: url("./43473.jpg");
+	width: 100%;
+	height: 900px;
+	background-size: cover;
+	text-align: center;
+	font-size: 2em;
+	color: white;
+
+}
+
+.songs {
+	background-image: url("./43473.jpg");
+	width: 100%;
+	height: 900px;
+	background-size: cover;
+	text-align: center;
+	font-size: 2em;
+	color: white;
+
+}
+
+
+.Register_page {
+
+	background-image: url("./43473.jpg");
+	width: 100%;
+	height: 900px;
+	background-size: cover;
+	margin: auto;
+
+
+}
+
+.Login_page {
+	background-color: black;
+	background-image: url("./43473.jpg");
+	width: 100%;
+	height: 900px;
+	background-size: cover;
+
+
+}
+ 
+
+.TCNpage {
+	background-image: url("./615.jpg");
+	width: 100%;
+	height: 900px;
+	background-size: cover;
+	color: white;
+	font-size: 1.5em;
+
+}
+
+.formAndLogo {
+	display: absolute;
+	z-index: auto;
+  }
+
+.tcnForm {
+	position: static; 
+	right:50px;
+	left: 50px; 
+	width:50%;
+	margin: auto;
+	z-index: 3;
+
+}
+  
+  .tcnLogo {
+	  display: static;
+	  right:50px;
+	  left: 50px; 
+	  width:50%;
+	  margin: auto;
+	  z-index: 0;
+	  height: 400px;
+	  width: 465px; 
+  }
+
+
+.todo_Page {
+	background-image: url("./615.jpg");
+	width: 100%;
+	height: 1800px;
+	color: White;
+}
+
+.rebeccaBlack {
+	text-align: center;
+	font-size: 3.5em;
+	color: #ffffff;
+	padding: 10px;
+
+}
+
+.tcnText {
+	text-align: center;
+ font-size: 1em;
+ color: white;
+ position: relative; 
+	right:50px;
+	left: 50px; 
+	width:50%;
+	margin: auto;
+}
+
+.Form_Layout {
+	position: relative; 
+	right:50px;
+	left: 160px; 
+	width:50%;
+	margin: auto; 
+} 
+
+.Page_404 {
+	color: white;
+	font-size: 2em;
+	text-align: center;
+	background: black;
+	background-image: url("./615.jpg");
+	height: 800px;
+	width: 100%;
+}
+
+.footer {
+	background-color: #071525;
+	text-align: center;
+	color: White;
+	height: 100%;
+	width: 100%;
+}
+
+.socialIcon {
+	display: flex;
+  justify-content: space-between;
+	padding: 25px;
+	margin: 50px;
+}
+
+
+
